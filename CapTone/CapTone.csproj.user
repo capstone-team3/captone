@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <UseSimulator>false</UseSimulator>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectView>ProjectFiles</ProjectView>
+    <Source>D:\중앙대\2020.2학기%283-2%29\캡스톤디자인%281%29\12주차 ppt\pngwing.com.png</Source>
+    <SmallTileSource>D:\중앙대\2020.2학기%283-2%29\캡스톤디자인%281%29\12주차 ppt\pngwing.com.png</SmallTileSource>
+    <MediumTileSource>D:\중앙대\2020.2학기%283-2%29\캡스톤디자인%281%29\12주차 ppt\pngwing.com.png</MediumTileSource>
+    <WideTileSource>D:\중앙대\2020.2학기%283-2%29\캡스톤디자인%281%29\12주차 ppt\pngwing.com.png</WideTileSource>
+    <LargeTileSource>D:\중앙대\2020.2학기%283-2%29\캡스톤디자인%281%29\12주차 ppt\pngwing.com.png</LargeTileSource>
+    <AppIconSource>D:\중앙대\2020.2학기%283-2%29\캡스톤디자인%281%29\12주차 ppt\pngwing.com.png</AppIconSource>
+    <SplashScreenSource>D:\중앙대\2020.2학기%283-2%29\캡스톤디자인%281%29\12주차 ppt\pngwing.com.png</SplashScreenSource>
+    <PackageLogoSource>D:\중앙대\2020.2학기%283-2%29\캡스톤디자인%281%29\12주차 ppt\pngwing.com.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>

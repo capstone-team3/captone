@@ -1,0 +1,49 @@
+﻿<Page
+    x:Class="CapTone.Views.데이터베이스Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Style="{StaticResource PageStyle}"
+    xmlns:prismMvvm="using:Prism.Windows.Mvvm"
+    prismMvvm:ViewModelLocator.AutoWireViewModel="True" 
+    xmlns:model="using:CapTone.Core.Models"
+    mc:Ignorable="d">
+    <Grid x:ConnectionId='2' x:Name="ContentArea" Margin="{StaticResource SmallLeftRightMargin}">
+
+
+        <Grid>
+            <controls:DataGrid x:ConnectionId='3'
+                AutoGenerateColumns="False"
+                Margin="0,50,0,50"
+                GridLinesVisibility="Horizontal"
+                ItemsSource="{Binding OutputData}"
+                SelectionMode="Extended"
+                x:Name="DataGrid01"
+                >
+                <controls:DataGrid.Columns>
+                    <!--
+                        TODO WTS:
+                        Remove this column definitions and define columns for your data.
+                        Consider adding header properties to Resources.resw
+                    -->
+                    <controls:DataGridTextColumn Binding="{Binding Name}" Header="이름" IsReadOnly="True"/>
+                    <controls:DataGridTextColumn Binding="{Binding PhoneNumber}" Header="전화번호" IsReadOnly="True" />
+                    <controls:DataGridTextColumn Binding="{Binding HomeAddress}" Header="주소" IsReadOnly="True" />
+                    <controls:DataGridTextColumn Binding="{Binding Items}" Header="품목" IsReadOnly="True"/>
+
+                </controls:DataGrid.Columns>
+            </controls:DataGrid>
+
+
+            <CommandBar VerticalAlignment="Bottom" Background="{x:Null}">
+                <AppBarButton Icon="Save" Label="엑셀에 저장" Command="{Binding ExportCommand}"/>
+                <AppBarButton Icon="Cancel"  Label="DB 삭제" Command="{Binding DeleteCommand}"/>
+                <AppBarButton x:ConnectionId='4' Icon="Delete"  Label="선택 삭제" Command="{Binding DeleteOneCommand}"                        />
+            </CommandBar>
+
+        </Grid>
+    </Grid>
+</Page>
+

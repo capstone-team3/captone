@@ -1,0 +1,2865 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-D8DTTGU</Machine>
+    <WindowsUser>이융</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>941567A7-1987-47D0-B4C2-D7C7A6FC329E</PackageIdentityName>
+    <PackageIdentityPublisher>CN=이융</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>770383722EF26DA2FF0947CB05CC94D6F3A279AE2DEA1B394BC33C51995F2C0E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>941567A7-1987-47D0-B4C2-D7C7A6FC329E_1.0.0.0_x86__5rnhpx6get9w2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>941567A7-1987-47D0-B4C2-D7C7A6FC329E_5rnhpx6get9w2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>941567A7-1987-47D0-B4C2-D7C7A6FC329E</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=이융</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-11T07:39:52.483</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\bin\x86\Debug\CapTone.exe">
+      <PackagePath>entrypoint\CapTone.exe</PackagePath>
+      <Modified>2020-12-11T07:39:48.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\bin\x86\Debug\CapTone.exe.config">
+      <PackagePath>CapTone.exe.config</PackagePath>
+      <Modified>2020-11-01T11:53:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\commonservicelocator\1.3.0\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+      <Modified>2014-05-05T02:25:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\dynamiclanguageruntime\1.2.3\lib\netstandard2.0\Microsoft.Dynamic.dll">
+      <PackagePath>Microsoft.Dynamic.dll</PackagePath>
+      <Modified>2020-04-24T07:31:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\dynamiclanguageruntime\1.2.3\lib\netstandard2.0\Microsoft.Scripting.Metadata.dll">
+      <PackagePath>Microsoft.Scripting.Metadata.dll</PackagePath>
+      <Modified>2020-04-24T07:31:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\dynamiclanguageruntime\1.2.3\lib\netstandard2.0\Microsoft.Scripting.dll">
+      <PackagePath>Microsoft.Scripting.dll</PackagePath>
+      <Modified>2020-04-24T07:31:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython\2.7.10\lib\netstandard2.0\IronPython.Modules.dll">
+      <PackagePath>IronPython.Modules.dll</PackagePath>
+      <Modified>2020-04-26T11:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython\2.7.10\lib\netstandard2.0\IronPython.SQLite.dll">
+      <PackagePath>IronPython.SQLite.dll</PackagePath>
+      <Modified>2020-04-26T12:06:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython\2.7.10\lib\netstandard2.0\IronPython.dll">
+      <PackagePath>IronPython.dll</PackagePath>
+      <Modified>2020-04-26T11:25:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\mecab.dotnet\0.0.26\lib\netstandard2.0\MeCab.DotNet.dll">
+      <PackagePath>MeCab.DotNet.dll</PackagePath>
+      <Modified>2019-10-09T04:23:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.data.sqlite\1.1.1\lib\netstandard1.3\Microsoft.Data.Sqlite.dll">
+      <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
+      <Modified>2017-04-27T09:53:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.dotnet.platformabstractions\2.0.4\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll">
+      <PackagePath>Microsoft.DotNet.PlatformAbstractions.dll</PackagePath>
+      <Modified>2017-11-22T01:48:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.entityframeworkcore\2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.dll</PackagePath>
+      <Modified>2019-06-18T12:21:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.entityframeworkcore.abstractions\2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.Abstractions.dll</PackagePath>
+      <Modified>2019-06-18T12:21:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.entityframeworkcore.relational\2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.Relational.dll</PackagePath>
+      <Modified>2019-06-18T12:21:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.entityframeworkcore.sqlserver\2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.SqlServer.dll</PackagePath>
+      <Modified>2019-06-18T12:21:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.extensions.caching.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Caching.Abstractions.dll</PackagePath>
+      <Modified>2018-11-10T15:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.extensions.caching.memory\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll">
+      <PackagePath>Microsoft.Extensions.Caching.Memory.dll</PackagePath>
+      <Modified>2018-11-10T15:26:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.extensions.configuration\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
+      <Modified>2018-11-10T15:27:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.extensions.configuration.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
+      <Modified>2018-11-10T15:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.extensions.configuration.binder\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.Binder.dll</PackagePath>
+      <Modified>2018-11-10T15:27:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.extensions.dependencyinjection\2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
+      <Modified>2018-11-10T15:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
+      <Modified>2018-11-10T15:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.extensions.dependencymodel\2.0.4\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll">
+      <PackagePath>Microsoft.Extensions.DependencyModel.dll</PackagePath>
+      <Modified>2017-11-22T01:48:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.extensions.logging\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.dll">
+      <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
+      <Modified>2018-11-10T15:27:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.extensions.logging.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
+      <Modified>2018-11-10T15:26:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.extensions.options\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll">
+      <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
+      <Modified>2018-11-10T15:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.extensions.platformabstractions\1.1.0\lib\netstandard1.3\Microsoft.Extensions.PlatformAbstractions.dll">
+      <PackagePath>Microsoft.Extensions.PlatformAbstractions.dll</PackagePath>
+      <Modified>2016-11-14T11:41:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.extensions.primitives\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll">
+      <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
+      <Modified>2018-11-10T15:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll</PackagePath>
+      <Modified>2020-08-12T13:30:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.win32.registry\4.5.0\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll">
+      <PackagePath>Microsoft.Win32.Registry.dll</PackagePath>
+      <Modified>2018-05-15T04:29:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2019-04-26T16:06:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2019-04-26T16:06:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\nancy\2.0.0\lib\netstandard2.0\Nancy.dll">
+      <PackagePath>Nancy.dll</PackagePath>
+      <Modified>2019-04-27T01:54:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2019-11-08T15:56:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\prism.core\6.3.0\lib\wpa81\Prism.dll">
+      <PackagePath>Prism.dll</PackagePath>
+      <Modified>2017-03-24T09:34:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\prism.unity\6.3.0\lib\uap10.0\Prism.Unity.Windows.dll">
+      <PackagePath>Prism.Unity.Windows.dll</PackagePath>
+      <Modified>2017-03-24T09:34:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\prism.windows\6.3.0\lib\uap10.0\Prism.Windows.dll">
+      <PackagePath>Prism.Windows.dll</PackagePath>
+      <Modified>2017-03-24T09:34:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\remotion.linq\2.2.0\lib\portable-net45+win+wpa81+wp80\Remotion.Linq.dll">
+      <PackagePath>Remotion.Linq.dll</PackagePath>
+      <Modified>2018-02-06T13:25:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2020-02-27T10:16:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\sqlite\3.13.0\runtimes\win10-x86\nativeassets\uap10.0\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2016-10-18T12:37:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\syncfusion.licensing\18.3.0.40\lib\uap10.0\Syncfusion.Licensing.dll">
+      <PackagePath>Syncfusion.Licensing.dll</PackagePath>
+      <Modified>2020-10-11T23:39:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\syncfusion.xlsio.uwp\18.3.0.40\lib\uap10.0\Syncfusion.XlsIO.UWP.dll">
+      <PackagePath>Syncfusion.XlsIO.UWP.dll</PackagePath>
+      <Modified>2020-10-12T00:22:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\system.codedom\4.7.0\lib\netstandard2.0\System.CodeDom.dll">
+      <PackagePath>System.CodeDom.dll</PackagePath>
+      <Modified>2019-11-14T23:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\system.configuration.configurationmanager\4.7.0\lib\netstandard2.0\System.Configuration.ConfigurationManager.dll">
+      <PackagePath>System.Configuration.ConfigurationManager.dll</PackagePath>
+      <Modified>2019-11-14T23:37:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\system.data.sqlclient\4.6.1\runtimes\win\lib\uap10.0.16299\System.Data.SqlClient.dll">
+      <PackagePath>System.Data.SqlClient.dll</PackagePath>
+      <Modified>2019-04-17T09:07:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\system.interactive.async\3.2.0\lib\netstandard2.0\System.Interactive.Async.dll">
+      <PackagePath>System.Interactive.Async.dll</PackagePath>
+      <Modified>2018-07-11T04:48:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\system.runtime.compilerservices.unsafe\4.6.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+      <Modified>2019-09-12T17:28:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\system.security.cryptography.protecteddata\4.7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll">
+      <PackagePath>System.Security.Cryptography.ProtectedData.dll</PackagePath>
+      <Modified>2019-11-14T23:53:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\system.security.permissions\4.7.0\lib\netstandard2.0\System.Security.Permissions.dll">
+      <PackagePath>System.Security.Permissions.dll</PackagePath>
+      <Modified>2019-11-14T23:37:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\system.text.encoding.codepages\4.6.0\runtimes\win\lib\netstandard2.0\System.Text.Encoding.CodePages.dll">
+      <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
+      <Modified>2019-09-12T17:39:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\unity\4.0.1\lib\win8\Microsoft.Practices.Unity.RegistrationByConvention.dll">
+      <PackagePath>Microsoft.Practices.Unity.RegistrationByConvention.dll</PackagePath>
+      <Modified>2015-10-05T00:37:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\unity\4.0.1\lib\win8\Microsoft.Practices.Unity.dll">
+      <PackagePath>Microsoft.Practices.Unity.dll</PackagePath>
+      <Modified>2015-10-05T00:37:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone.Core\bin\Debug\netstandard2.0\CapTone.Core.dll">
+      <PackagePath>CapTone.Core.dll</PackagePath>
+      <Modified>2020-12-05T17:53:46.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\BaseHTTPServer.py">
+      <PackagePath>Lib\BaseHTTPServer.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\Bastion.py">
+      <PackagePath>Lib\Bastion.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\CGIHTTPServer.py">
+      <PackagePath>Lib\CGIHTTPServer.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\ConfigParser.py">
+      <PackagePath>Lib\ConfigParser.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\Cookie.py">
+      <PackagePath>Lib\Cookie.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\DocXMLRPCServer.py">
+      <PackagePath>Lib\DocXMLRPCServer.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\HTMLParser.py">
+      <PackagePath>Lib\HTMLParser.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\MimeWriter.py">
+      <PackagePath>Lib\MimeWriter.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\Queue.py">
+      <PackagePath>Lib\Queue.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\SimpleHTTPServer.py">
+      <PackagePath>Lib\SimpleHTTPServer.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\SimpleXMLRPCServer.py">
+      <PackagePath>Lib\SimpleXMLRPCServer.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\SocketServer.py">
+      <PackagePath>Lib\SocketServer.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\StringIO.py">
+      <PackagePath>Lib\StringIO.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\UserDict.py">
+      <PackagePath>Lib\UserDict.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\UserList.py">
+      <PackagePath>Lib\UserList.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\UserString.py">
+      <PackagePath>Lib\UserString.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\_LWPCookieJar.py">
+      <PackagePath>Lib\_LWPCookieJar.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\_MozillaCookieJar.py">
+      <PackagePath>Lib\_MozillaCookieJar.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\__future__.py">
+      <PackagePath>Lib\__future__.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\__phello__.foo.py">
+      <PackagePath>Lib\__phello__.foo.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\_abcoll.py">
+      <PackagePath>Lib\_abcoll.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\_osx_support.py">
+      <PackagePath>Lib\_osx_support.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\_pyio.py">
+      <PackagePath>Lib\_pyio.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\_strptime.py">
+      <PackagePath>Lib\_strptime.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\_threading_local.py">
+      <PackagePath>Lib\_threading_local.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\_weakrefset.py">
+      <PackagePath>Lib\_weakrefset.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\abc.py">
+      <PackagePath>Lib\abc.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\aifc.py">
+      <PackagePath>Lib\aifc.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\antigravity.py">
+      <PackagePath>Lib\antigravity.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\anydbm.py">
+      <PackagePath>Lib\anydbm.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\argparse.py">
+      <PackagePath>Lib\argparse.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\ast.py">
+      <PackagePath>Lib\ast.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\asynchat.py">
+      <PackagePath>Lib\asynchat.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\asyncore.py">
+      <PackagePath>Lib\asyncore.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\atexit.py">
+      <PackagePath>Lib\atexit.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\audiodev.py">
+      <PackagePath>Lib\audiodev.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\base64.py">
+      <PackagePath>Lib\base64.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\bdb.py">
+      <PackagePath>Lib\bdb.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\binhex.py">
+      <PackagePath>Lib\binhex.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\bisect.py">
+      <PackagePath>Lib\bisect.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\calendar.py">
+      <PackagePath>Lib\calendar.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\cgi.py">
+      <PackagePath>Lib\cgi.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\cgitb.py">
+      <PackagePath>Lib\cgitb.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\chunk.py">
+      <PackagePath>Lib\chunk.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\clrtype.py">
+      <PackagePath>Lib\clrtype.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\cmd.py">
+      <PackagePath>Lib\cmd.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\code.py">
+      <PackagePath>Lib\code.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\codecs.py">
+      <PackagePath>Lib\codecs.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\codeop.py">
+      <PackagePath>Lib\codeop.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\collections.py">
+      <PackagePath>Lib\collections.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\colorsys.py">
+      <PackagePath>Lib\colorsys.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\commands.py">
+      <PackagePath>Lib\commands.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\compileall.py">
+      <PackagePath>Lib\compileall.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\contextlib.py">
+      <PackagePath>Lib\contextlib.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\cookielib.py">
+      <PackagePath>Lib\cookielib.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\copy.py">
+      <PackagePath>Lib\copy.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\csv.py">
+      <PackagePath>Lib\csv.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\ctypes\__init__.py">
+      <PackagePath>Lib\ctypes\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\ctypes\_endian.py">
+      <PackagePath>Lib\ctypes\_endian.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\ctypes\macholib\__init__.py">
+      <PackagePath>Lib\ctypes\macholib\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\ctypes\macholib\dyld.py">
+      <PackagePath>Lib\ctypes\macholib\dyld.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\ctypes\macholib\dylib.py">
+      <PackagePath>Lib\ctypes\macholib\dylib.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\ctypes\macholib\framework.py">
+      <PackagePath>Lib\ctypes\macholib\framework.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\ctypes\util.py">
+      <PackagePath>Lib\ctypes\util.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\ctypes\wintypes.py">
+      <PackagePath>Lib\ctypes\wintypes.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\decimal.py">
+      <PackagePath>Lib\decimal.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\difflib.py">
+      <PackagePath>Lib\difflib.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\dircache.py">
+      <PackagePath>Lib\dircache.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\dis.py">
+      <PackagePath>Lib\dis.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\__init__.py">
+      <PackagePath>Lib\distutils\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\archive_util.py">
+      <PackagePath>Lib\distutils\archive_util.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\bcppcompiler.py">
+      <PackagePath>Lib\distutils\bcppcompiler.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\ccompiler.py">
+      <PackagePath>Lib\distutils\ccompiler.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\cmd.py">
+      <PackagePath>Lib\distutils\cmd.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\command\__init__.py">
+      <PackagePath>Lib\distutils\command\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\command\bdist.py">
+      <PackagePath>Lib\distutils\command\bdist.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\command\bdist_dumb.py">
+      <PackagePath>Lib\distutils\command\bdist_dumb.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\command\bdist_rpm.py">
+      <PackagePath>Lib\distutils\command\bdist_rpm.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\command\bdist_wininst.py">
+      <PackagePath>Lib\distutils\command\bdist_wininst.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\command\build.py">
+      <PackagePath>Lib\distutils\command\build.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\command\build_clib.py">
+      <PackagePath>Lib\distutils\command\build_clib.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\command\build_ext.py">
+      <PackagePath>Lib\distutils\command\build_ext.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\command\build_py.py">
+      <PackagePath>Lib\distutils\command\build_py.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\command\build_scripts.py">
+      <PackagePath>Lib\distutils\command\build_scripts.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\command\check.py">
+      <PackagePath>Lib\distutils\command\check.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\command\clean.py">
+      <PackagePath>Lib\distutils\command\clean.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\command\config.py">
+      <PackagePath>Lib\distutils\command\config.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\command\install.py">
+      <PackagePath>Lib\distutils\command\install.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\command\install_data.py">
+      <PackagePath>Lib\distutils\command\install_data.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\command\install_egg_info.py">
+      <PackagePath>Lib\distutils\command\install_egg_info.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\command\install_headers.py">
+      <PackagePath>Lib\distutils\command\install_headers.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\command\install_lib.py">
+      <PackagePath>Lib\distutils\command\install_lib.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\command\install_scripts.py">
+      <PackagePath>Lib\distutils\command\install_scripts.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\command\register.py">
+      <PackagePath>Lib\distutils\command\register.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\command\sdist.py">
+      <PackagePath>Lib\distutils\command\sdist.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\command\upload.py">
+      <PackagePath>Lib\distutils\command\upload.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\config.py">
+      <PackagePath>Lib\distutils\config.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\core.py">
+      <PackagePath>Lib\distutils\core.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\cygwinccompiler.py">
+      <PackagePath>Lib\distutils\cygwinccompiler.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\debug.py">
+      <PackagePath>Lib\distutils\debug.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\dep_util.py">
+      <PackagePath>Lib\distutils\dep_util.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\dir_util.py">
+      <PackagePath>Lib\distutils\dir_util.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\dist.py">
+      <PackagePath>Lib\distutils\dist.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\emxccompiler.py">
+      <PackagePath>Lib\distutils\emxccompiler.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\errors.py">
+      <PackagePath>Lib\distutils\errors.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\extension.py">
+      <PackagePath>Lib\distutils\extension.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\fancy_getopt.py">
+      <PackagePath>Lib\distutils\fancy_getopt.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\file_util.py">
+      <PackagePath>Lib\distutils\file_util.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\filelist.py">
+      <PackagePath>Lib\distutils\filelist.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\log.py">
+      <PackagePath>Lib\distutils\log.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\msvccompiler.py">
+      <PackagePath>Lib\distutils\msvccompiler.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\spawn.py">
+      <PackagePath>Lib\distutils\spawn.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\sysconfig.py">
+      <PackagePath>Lib\distutils\sysconfig.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\text_file.py">
+      <PackagePath>Lib\distutils\text_file.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\unixccompiler.py">
+      <PackagePath>Lib\distutils\unixccompiler.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\util.py">
+      <PackagePath>Lib\distutils\util.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\version.py">
+      <PackagePath>Lib\distutils\version.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\distutils\versionpredicate.py">
+      <PackagePath>Lib\distutils\versionpredicate.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\doctest.py">
+      <PackagePath>Lib\doctest.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\dumbdbm.py">
+      <PackagePath>Lib\dumbdbm.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\dummy_thread.py">
+      <PackagePath>Lib\dummy_thread.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\dummy_threading.py">
+      <PackagePath>Lib\dummy_threading.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\__init__.py">
+      <PackagePath>Lib\email\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\_parseaddr.py">
+      <PackagePath>Lib\email\_parseaddr.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\base64mime.py">
+      <PackagePath>Lib\email\base64mime.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\charset.py">
+      <PackagePath>Lib\email\charset.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\encoders.py">
+      <PackagePath>Lib\email\encoders.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\errors.py">
+      <PackagePath>Lib\email\errors.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\feedparser.py">
+      <PackagePath>Lib\email\feedparser.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\generator.py">
+      <PackagePath>Lib\email\generator.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\header.py">
+      <PackagePath>Lib\email\header.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\iterators.py">
+      <PackagePath>Lib\email\iterators.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\message.py">
+      <PackagePath>Lib\email\message.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\mime\__init__.py">
+      <PackagePath>Lib\email\mime\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\mime\application.py">
+      <PackagePath>Lib\email\mime\application.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\mime\audio.py">
+      <PackagePath>Lib\email\mime\audio.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\mime\base.py">
+      <PackagePath>Lib\email\mime\base.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\mime\image.py">
+      <PackagePath>Lib\email\mime\image.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\mime\message.py">
+      <PackagePath>Lib\email\mime\message.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\mime\multipart.py">
+      <PackagePath>Lib\email\mime\multipart.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\mime\nonmultipart.py">
+      <PackagePath>Lib\email\mime\nonmultipart.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\mime\text.py">
+      <PackagePath>Lib\email\mime\text.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\parser.py">
+      <PackagePath>Lib\email\parser.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\quoprimime.py">
+      <PackagePath>Lib\email\quoprimime.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\email\utils.py">
+      <PackagePath>Lib\email\utils.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\__init__.py">
+      <PackagePath>Lib\encodings\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\aliases.py">
+      <PackagePath>Lib\encodings\aliases.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\ascii.py">
+      <PackagePath>Lib\encodings\ascii.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\base64_codec.py">
+      <PackagePath>Lib\encodings\base64_codec.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\bz2_codec.py">
+      <PackagePath>Lib\encodings\bz2_codec.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\charmap.py">
+      <PackagePath>Lib\encodings\charmap.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp037.py">
+      <PackagePath>Lib\encodings\cp037.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp1006.py">
+      <PackagePath>Lib\encodings\cp1006.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp1026.py">
+      <PackagePath>Lib\encodings\cp1026.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp1140.py">
+      <PackagePath>Lib\encodings\cp1140.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp1250.py">
+      <PackagePath>Lib\encodings\cp1250.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp1251.py">
+      <PackagePath>Lib\encodings\cp1251.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp1252.py">
+      <PackagePath>Lib\encodings\cp1252.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp1253.py">
+      <PackagePath>Lib\encodings\cp1253.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp1254.py">
+      <PackagePath>Lib\encodings\cp1254.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp1255.py">
+      <PackagePath>Lib\encodings\cp1255.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp1256.py">
+      <PackagePath>Lib\encodings\cp1256.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp1257.py">
+      <PackagePath>Lib\encodings\cp1257.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp1258.py">
+      <PackagePath>Lib\encodings\cp1258.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp424.py">
+      <PackagePath>Lib\encodings\cp424.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp437.py">
+      <PackagePath>Lib\encodings\cp437.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp500.py">
+      <PackagePath>Lib\encodings\cp500.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp720.py">
+      <PackagePath>Lib\encodings\cp720.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp737.py">
+      <PackagePath>Lib\encodings\cp737.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp775.py">
+      <PackagePath>Lib\encodings\cp775.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp850.py">
+      <PackagePath>Lib\encodings\cp850.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp852.py">
+      <PackagePath>Lib\encodings\cp852.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp855.py">
+      <PackagePath>Lib\encodings\cp855.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp856.py">
+      <PackagePath>Lib\encodings\cp856.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp857.py">
+      <PackagePath>Lib\encodings\cp857.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp858.py">
+      <PackagePath>Lib\encodings\cp858.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp860.py">
+      <PackagePath>Lib\encodings\cp860.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp861.py">
+      <PackagePath>Lib\encodings\cp861.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp862.py">
+      <PackagePath>Lib\encodings\cp862.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp863.py">
+      <PackagePath>Lib\encodings\cp863.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp864.py">
+      <PackagePath>Lib\encodings\cp864.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp865.py">
+      <PackagePath>Lib\encodings\cp865.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp866.py">
+      <PackagePath>Lib\encodings\cp866.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp869.py">
+      <PackagePath>Lib\encodings\cp869.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp874.py">
+      <PackagePath>Lib\encodings\cp874.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\cp875.py">
+      <PackagePath>Lib\encodings\cp875.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\hex_codec.py">
+      <PackagePath>Lib\encodings\hex_codec.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\hp_roman8.py">
+      <PackagePath>Lib\encodings\hp_roman8.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\idna.py">
+      <PackagePath>Lib\encodings\idna.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\iso8859_1.py">
+      <PackagePath>Lib\encodings\iso8859_1.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\iso8859_10.py">
+      <PackagePath>Lib\encodings\iso8859_10.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\iso8859_11.py">
+      <PackagePath>Lib\encodings\iso8859_11.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\iso8859_13.py">
+      <PackagePath>Lib\encodings\iso8859_13.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\iso8859_14.py">
+      <PackagePath>Lib\encodings\iso8859_14.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\iso8859_15.py">
+      <PackagePath>Lib\encodings\iso8859_15.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\iso8859_16.py">
+      <PackagePath>Lib\encodings\iso8859_16.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\iso8859_2.py">
+      <PackagePath>Lib\encodings\iso8859_2.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\iso8859_3.py">
+      <PackagePath>Lib\encodings\iso8859_3.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\iso8859_4.py">
+      <PackagePath>Lib\encodings\iso8859_4.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\iso8859_5.py">
+      <PackagePath>Lib\encodings\iso8859_5.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\iso8859_6.py">
+      <PackagePath>Lib\encodings\iso8859_6.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\iso8859_7.py">
+      <PackagePath>Lib\encodings\iso8859_7.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\iso8859_8.py">
+      <PackagePath>Lib\encodings\iso8859_8.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\iso8859_9.py">
+      <PackagePath>Lib\encodings\iso8859_9.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\koi8_r.py">
+      <PackagePath>Lib\encodings\koi8_r.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\koi8_u.py">
+      <PackagePath>Lib\encodings\koi8_u.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\latin_1.py">
+      <PackagePath>Lib\encodings\latin_1.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\mac_arabic.py">
+      <PackagePath>Lib\encodings\mac_arabic.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\mac_centeuro.py">
+      <PackagePath>Lib\encodings\mac_centeuro.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\mac_croatian.py">
+      <PackagePath>Lib\encodings\mac_croatian.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\mac_cyrillic.py">
+      <PackagePath>Lib\encodings\mac_cyrillic.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\mac_farsi.py">
+      <PackagePath>Lib\encodings\mac_farsi.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\mac_greek.py">
+      <PackagePath>Lib\encodings\mac_greek.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\mac_iceland.py">
+      <PackagePath>Lib\encodings\mac_iceland.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\mac_latin2.py">
+      <PackagePath>Lib\encodings\mac_latin2.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\mac_roman.py">
+      <PackagePath>Lib\encodings\mac_roman.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\mac_romanian.py">
+      <PackagePath>Lib\encodings\mac_romanian.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\mac_turkish.py">
+      <PackagePath>Lib\encodings\mac_turkish.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\mbcs.py">
+      <PackagePath>Lib\encodings\mbcs.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\palmos.py">
+      <PackagePath>Lib\encodings\palmos.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\ptcp154.py">
+      <PackagePath>Lib\encodings\ptcp154.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\punycode.py">
+      <PackagePath>Lib\encodings\punycode.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\quopri_codec.py">
+      <PackagePath>Lib\encodings\quopri_codec.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\raw_unicode_escape.py">
+      <PackagePath>Lib\encodings\raw_unicode_escape.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\rot_13.py">
+      <PackagePath>Lib\encodings\rot_13.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\string_escape.py">
+      <PackagePath>Lib\encodings\string_escape.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\tis_620.py">
+      <PackagePath>Lib\encodings\tis_620.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\undefined.py">
+      <PackagePath>Lib\encodings\undefined.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\unicode_escape.py">
+      <PackagePath>Lib\encodings\unicode_escape.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\unicode_internal.py">
+      <PackagePath>Lib\encodings\unicode_internal.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\utf_16.py">
+      <PackagePath>Lib\encodings\utf_16.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\utf_16_be.py">
+      <PackagePath>Lib\encodings\utf_16_be.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\utf_16_le.py">
+      <PackagePath>Lib\encodings\utf_16_le.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\utf_32.py">
+      <PackagePath>Lib\encodings\utf_32.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\utf_32_be.py">
+      <PackagePath>Lib\encodings\utf_32_be.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\utf_32_le.py">
+      <PackagePath>Lib\encodings\utf_32_le.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\utf_7.py">
+      <PackagePath>Lib\encodings\utf_7.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\utf_8.py">
+      <PackagePath>Lib\encodings\utf_8.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\utf_8_sig.py">
+      <PackagePath>Lib\encodings\utf_8_sig.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\uu_codec.py">
+      <PackagePath>Lib\encodings\uu_codec.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\encodings\zlib_codec.py">
+      <PackagePath>Lib\encodings\zlib_codec.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\ensurepip\__init__.py">
+      <PackagePath>Lib\ensurepip\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\ensurepip\__main__.py">
+      <PackagePath>Lib\ensurepip\__main__.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\ensurepip\_uninstall.py">
+      <PackagePath>Lib\ensurepip\_uninstall.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\filecmp.py">
+      <PackagePath>Lib\filecmp.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\fileinput.py">
+      <PackagePath>Lib\fileinput.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\fnmatch.py">
+      <PackagePath>Lib\fnmatch.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\formatter.py">
+      <PackagePath>Lib\formatter.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\fpformat.py">
+      <PackagePath>Lib\fpformat.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\fractions.py">
+      <PackagePath>Lib\fractions.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\ftplib.py">
+      <PackagePath>Lib\ftplib.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\functools.py">
+      <PackagePath>Lib\functools.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\genericpath.py">
+      <PackagePath>Lib\genericpath.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\getopt.py">
+      <PackagePath>Lib\getopt.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\getpass.py">
+      <PackagePath>Lib\getpass.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\gettext.py">
+      <PackagePath>Lib\gettext.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\glob.py">
+      <PackagePath>Lib\glob.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\gzip.py">
+      <PackagePath>Lib\gzip.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\hashlib.py">
+      <PackagePath>Lib\hashlib.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\heapq.py">
+      <PackagePath>Lib\heapq.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\hmac.py">
+      <PackagePath>Lib\hmac.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\htmlentitydefs.py">
+      <PackagePath>Lib\htmlentitydefs.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\htmllib.py">
+      <PackagePath>Lib\htmllib.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\httplib.py">
+      <PackagePath>Lib\httplib.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\ihooks.py">
+      <PackagePath>Lib\ihooks.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\imaplib.py">
+      <PackagePath>Lib\imaplib.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\imghdr.py">
+      <PackagePath>Lib\imghdr.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\importlib\__init__.py">
+      <PackagePath>Lib\importlib\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\imputil.py">
+      <PackagePath>Lib\imputil.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\inspect.py">
+      <PackagePath>Lib\inspect.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\io.py">
+      <PackagePath>Lib\io.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\json\__init__.py">
+      <PackagePath>Lib\json\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\json\decoder.py">
+      <PackagePath>Lib\json\decoder.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\json\encoder.py">
+      <PackagePath>Lib\json\encoder.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\json\scanner.py">
+      <PackagePath>Lib\json\scanner.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\json\tool.py">
+      <PackagePath>Lib\json\tool.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\keyword.py">
+      <PackagePath>Lib\keyword.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\__init__.py">
+      <PackagePath>Lib\lib2to3\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\__main__.py">
+      <PackagePath>Lib\lib2to3\__main__.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\btm_matcher.py">
+      <PackagePath>Lib\lib2to3\btm_matcher.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\btm_utils.py">
+      <PackagePath>Lib\lib2to3\btm_utils.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixer_base.py">
+      <PackagePath>Lib\lib2to3\fixer_base.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixer_util.py">
+      <PackagePath>Lib\lib2to3\fixer_util.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\__init__.py">
+      <PackagePath>Lib\lib2to3\fixes\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_apply.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_apply.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_asserts.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_asserts.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_basestring.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_basestring.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_buffer.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_buffer.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_dict.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_dict.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_except.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_except.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_exec.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_exec.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_execfile.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_execfile.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_exitfunc.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_exitfunc.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_filter.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_filter.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_funcattrs.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_funcattrs.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_future.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_future.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_getcwdu.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_getcwdu.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_has_key.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_has_key.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_idioms.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_idioms.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_import.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_import.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_imports.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_imports.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_imports2.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_imports2.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_input.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_input.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_intern.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_intern.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_isinstance.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_isinstance.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_itertools.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_itertools.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_itertools_imports.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_itertools_imports.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_long.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_long.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_map.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_map.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_metaclass.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_metaclass.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_methodattrs.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_methodattrs.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_ne.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_ne.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_next.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_next.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_nonzero.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_nonzero.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_numliterals.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_numliterals.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_operator.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_operator.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_paren.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_paren.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_print.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_print.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_raise.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_raise.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_raw_input.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_raw_input.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_reduce.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_reduce.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_renames.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_renames.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_repr.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_repr.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_set_literal.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_set_literal.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_standarderror.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_standarderror.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_sys_exc.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_sys_exc.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_throw.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_throw.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_tuple_params.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_tuple_params.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_types.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_types.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_unicode.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_unicode.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_urllib.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_urllib.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_ws_comma.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_ws_comma.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_xrange.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_xrange.py</PackagePath>
+      <Modified>2020-04-26T12:06:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_xreadlines.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_xreadlines.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\fixes\fix_zip.py">
+      <PackagePath>Lib\lib2to3\fixes\fix_zip.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\main.py">
+      <PackagePath>Lib\lib2to3\main.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\patcomp.py">
+      <PackagePath>Lib\lib2to3\patcomp.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\pgen2\__init__.py">
+      <PackagePath>Lib\lib2to3\pgen2\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\pgen2\conv.py">
+      <PackagePath>Lib\lib2to3\pgen2\conv.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\pgen2\driver.py">
+      <PackagePath>Lib\lib2to3\pgen2\driver.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\pgen2\grammar.py">
+      <PackagePath>Lib\lib2to3\pgen2\grammar.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\pgen2\literals.py">
+      <PackagePath>Lib\lib2to3\pgen2\literals.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\pgen2\parse.py">
+      <PackagePath>Lib\lib2to3\pgen2\parse.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\pgen2\pgen.py">
+      <PackagePath>Lib\lib2to3\pgen2\pgen.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\pgen2\token.py">
+      <PackagePath>Lib\lib2to3\pgen2\token.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\pgen2\tokenize.py">
+      <PackagePath>Lib\lib2to3\pgen2\tokenize.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\pygram.py">
+      <PackagePath>Lib\lib2to3\pygram.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\pytree.py">
+      <PackagePath>Lib\lib2to3\pytree.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\lib2to3\refactor.py">
+      <PackagePath>Lib\lib2to3\refactor.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\linecache.py">
+      <PackagePath>Lib\linecache.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\locale.py">
+      <PackagePath>Lib\locale.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\logging\__init__.py">
+      <PackagePath>Lib\logging\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\logging\config.py">
+      <PackagePath>Lib\logging\config.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\logging\handlers.py">
+      <PackagePath>Lib\logging\handlers.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\macpath.py">
+      <PackagePath>Lib\macpath.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\macurl2path.py">
+      <PackagePath>Lib\macurl2path.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\mailbox.py">
+      <PackagePath>Lib\mailbox.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\mailcap.py">
+      <PackagePath>Lib\mailcap.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\markupbase.py">
+      <PackagePath>Lib\markupbase.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\md5.py">
+      <PackagePath>Lib\md5.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\mhlib.py">
+      <PackagePath>Lib\mhlib.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\mimetools.py">
+      <PackagePath>Lib\mimetools.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\mimetypes.py">
+      <PackagePath>Lib\mimetypes.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\mimify.py">
+      <PackagePath>Lib\mimify.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\modulefinder.py">
+      <PackagePath>Lib\modulefinder.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\multifile.py">
+      <PackagePath>Lib\multifile.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\multiprocessing\__init__.py">
+      <PackagePath>Lib\multiprocessing\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\multiprocessing\connection.py">
+      <PackagePath>Lib\multiprocessing\connection.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\multiprocessing\dummy\__init__.py">
+      <PackagePath>Lib\multiprocessing\dummy\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\multiprocessing\dummy\connection.py">
+      <PackagePath>Lib\multiprocessing\dummy\connection.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\multiprocessing\forking.py">
+      <PackagePath>Lib\multiprocessing\forking.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\multiprocessing\heap.py">
+      <PackagePath>Lib\multiprocessing\heap.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\multiprocessing\managers.py">
+      <PackagePath>Lib\multiprocessing\managers.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\multiprocessing\pool.py">
+      <PackagePath>Lib\multiprocessing\pool.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\multiprocessing\process.py">
+      <PackagePath>Lib\multiprocessing\process.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\multiprocessing\queues.py">
+      <PackagePath>Lib\multiprocessing\queues.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\multiprocessing\reduction.py">
+      <PackagePath>Lib\multiprocessing\reduction.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\multiprocessing\sharedctypes.py">
+      <PackagePath>Lib\multiprocessing\sharedctypes.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\multiprocessing\synchronize.py">
+      <PackagePath>Lib\multiprocessing\synchronize.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\multiprocessing\util.py">
+      <PackagePath>Lib\multiprocessing\util.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\mutex.py">
+      <PackagePath>Lib\mutex.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\netrc.py">
+      <PackagePath>Lib\netrc.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\new.py">
+      <PackagePath>Lib\new.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\nntplib.py">
+      <PackagePath>Lib\nntplib.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\ntpath.py">
+      <PackagePath>Lib\ntpath.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\nturl2path.py">
+      <PackagePath>Lib\nturl2path.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\numbers.py">
+      <PackagePath>Lib\numbers.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\opcode.py">
+      <PackagePath>Lib\opcode.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\optparse.py">
+      <PackagePath>Lib\optparse.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\os.py">
+      <PackagePath>Lib\os.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\os2emxpath.py">
+      <PackagePath>Lib\os2emxpath.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\pdb.py">
+      <PackagePath>Lib\pdb.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\pickle.py">
+      <PackagePath>Lib\pickle.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\pickletools.py">
+      <PackagePath>Lib\pickletools.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\pipes.py">
+      <PackagePath>Lib\pipes.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\pkgutil.py">
+      <PackagePath>Lib\pkgutil.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\platform.py">
+      <PackagePath>Lib\platform.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\plistlib.py">
+      <PackagePath>Lib\plistlib.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\popen2.py">
+      <PackagePath>Lib\popen2.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\poplib.py">
+      <PackagePath>Lib\poplib.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\posixfile.py">
+      <PackagePath>Lib\posixfile.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\posixpath.py">
+      <PackagePath>Lib\posixpath.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\pprint.py">
+      <PackagePath>Lib\pprint.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\profile.py">
+      <PackagePath>Lib\profile.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\pstats.py">
+      <PackagePath>Lib\pstats.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\py_compile.py">
+      <PackagePath>Lib\py_compile.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\pyclbr.py">
+      <PackagePath>Lib\pyclbr.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\pydoc.py">
+      <PackagePath>Lib\pydoc.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\pydoc_data\__init__.py">
+      <PackagePath>Lib\pydoc_data\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\pydoc_data\topics.py">
+      <PackagePath>Lib\pydoc_data\topics.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\quopri.py">
+      <PackagePath>Lib\quopri.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\random.py">
+      <PackagePath>Lib\random.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\repr.py">
+      <PackagePath>Lib\repr.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\rexec.py">
+      <PackagePath>Lib\rexec.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\rfc822.py">
+      <PackagePath>Lib\rfc822.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\rlcompleter.py">
+      <PackagePath>Lib\rlcompleter.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\robotparser.py">
+      <PackagePath>Lib\robotparser.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\runpy.py">
+      <PackagePath>Lib\runpy.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\sched.py">
+      <PackagePath>Lib\sched.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\sets.py">
+      <PackagePath>Lib\sets.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\sgmllib.py">
+      <PackagePath>Lib\sgmllib.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\sha.py">
+      <PackagePath>Lib\sha.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\shelve.py">
+      <PackagePath>Lib\shelve.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\shlex.py">
+      <PackagePath>Lib\shlex.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\shutil.py">
+      <PackagePath>Lib\shutil.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\site.py">
+      <PackagePath>Lib\site.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\smtpd.py">
+      <PackagePath>Lib\smtpd.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\smtplib.py">
+      <PackagePath>Lib\smtplib.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\sndhdr.py">
+      <PackagePath>Lib\sndhdr.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\socket.py">
+      <PackagePath>Lib\socket.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\sqlite3\__init__.py">
+      <PackagePath>Lib\sqlite3\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\sqlite3\dbapi2.py">
+      <PackagePath>Lib\sqlite3\dbapi2.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\sqlite3\dump.py">
+      <PackagePath>Lib\sqlite3\dump.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\sre_constants.py">
+      <PackagePath>Lib\sre_constants.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\sre_parse.py">
+      <PackagePath>Lib\sre_parse.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\ssl.py">
+      <PackagePath>Lib\ssl.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\stat.py">
+      <PackagePath>Lib\stat.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\statvfs.py">
+      <PackagePath>Lib\statvfs.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\string.py">
+      <PackagePath>Lib\string.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\stringold.py">
+      <PackagePath>Lib\stringold.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\stringprep.py">
+      <PackagePath>Lib\stringprep.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\struct.py">
+      <PackagePath>Lib\struct.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\subprocess.py">
+      <PackagePath>Lib\subprocess.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\sunau.py">
+      <PackagePath>Lib\sunau.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\sunaudio.py">
+      <PackagePath>Lib\sunaudio.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\symbol.py">
+      <PackagePath>Lib\symbol.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\sysconfig.py">
+      <PackagePath>Lib\sysconfig.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\tabnanny.py">
+      <PackagePath>Lib\tabnanny.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\tarfile.py">
+      <PackagePath>Lib\tarfile.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\telnetlib.py">
+      <PackagePath>Lib\telnetlib.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\tempfile.py">
+      <PackagePath>Lib\tempfile.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\textwrap.py">
+      <PackagePath>Lib\textwrap.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\this.py">
+      <PackagePath>Lib\this.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\threading.py">
+      <PackagePath>Lib\threading.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\timeit.py">
+      <PackagePath>Lib\timeit.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\toaiff.py">
+      <PackagePath>Lib\toaiff.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\token.py">
+      <PackagePath>Lib\token.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\tokenize.py">
+      <PackagePath>Lib\tokenize.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\trace.py">
+      <PackagePath>Lib\trace.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\traceback.py">
+      <PackagePath>Lib\traceback.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\types.py">
+      <PackagePath>Lib\types.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\unittest\__init__.py">
+      <PackagePath>Lib\unittest\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\unittest\__main__.py">
+      <PackagePath>Lib\unittest\__main__.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\unittest\case.py">
+      <PackagePath>Lib\unittest\case.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\unittest\loader.py">
+      <PackagePath>Lib\unittest\loader.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\unittest\main.py">
+      <PackagePath>Lib\unittest\main.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\unittest\result.py">
+      <PackagePath>Lib\unittest\result.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\unittest\runner.py">
+      <PackagePath>Lib\unittest\runner.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\unittest\signals.py">
+      <PackagePath>Lib\unittest\signals.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\unittest\suite.py">
+      <PackagePath>Lib\unittest\suite.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\unittest\util.py">
+      <PackagePath>Lib\unittest\util.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\urllib.py">
+      <PackagePath>Lib\urllib.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\urllib2.py">
+      <PackagePath>Lib\urllib2.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\urlparse.py">
+      <PackagePath>Lib\urlparse.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\user.py">
+      <PackagePath>Lib\user.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\uu.py">
+      <PackagePath>Lib\uu.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\uuid.py">
+      <PackagePath>Lib\uuid.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\warnings.py">
+      <PackagePath>Lib\warnings.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\wave.py">
+      <PackagePath>Lib\wave.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\weakref.py">
+      <PackagePath>Lib\weakref.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\webbrowser.py">
+      <PackagePath>Lib\webbrowser.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\whichdb.py">
+      <PackagePath>Lib\whichdb.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\wpf.py">
+      <PackagePath>Lib\wpf.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\wsgiref\__init__.py">
+      <PackagePath>Lib\wsgiref\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\wsgiref\handlers.py">
+      <PackagePath>Lib\wsgiref\handlers.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\wsgiref\headers.py">
+      <PackagePath>Lib\wsgiref\headers.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\wsgiref\simple_server.py">
+      <PackagePath>Lib\wsgiref\simple_server.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\wsgiref\util.py">
+      <PackagePath>Lib\wsgiref\util.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\wsgiref\validate.py">
+      <PackagePath>Lib\wsgiref\validate.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xdrlib.py">
+      <PackagePath>Lib\xdrlib.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xml\__init__.py">
+      <PackagePath>Lib\xml\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xml\dom\NodeFilter.py">
+      <PackagePath>Lib\xml\dom\NodeFilter.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xml\dom\__init__.py">
+      <PackagePath>Lib\xml\dom\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xml\dom\domreg.py">
+      <PackagePath>Lib\xml\dom\domreg.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xml\dom\expatbuilder.py">
+      <PackagePath>Lib\xml\dom\expatbuilder.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xml\dom\minicompat.py">
+      <PackagePath>Lib\xml\dom\minicompat.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xml\dom\minidom.py">
+      <PackagePath>Lib\xml\dom\minidom.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xml\dom\pulldom.py">
+      <PackagePath>Lib\xml\dom\pulldom.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xml\dom\xmlbuilder.py">
+      <PackagePath>Lib\xml\dom\xmlbuilder.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xml\etree\ElementInclude.py">
+      <PackagePath>Lib\xml\etree\ElementInclude.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xml\etree\ElementPath.py">
+      <PackagePath>Lib\xml\etree\ElementPath.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xml\etree\ElementTree.py">
+      <PackagePath>Lib\xml\etree\ElementTree.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xml\etree\SimpleXMLTreeBuilder.py">
+      <PackagePath>Lib\xml\etree\SimpleXMLTreeBuilder.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xml\etree\__init__.py">
+      <PackagePath>Lib\xml\etree\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xml\parsers\__init__.py">
+      <PackagePath>Lib\xml\parsers\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xml\parsers\expat.py">
+      <PackagePath>Lib\xml\parsers\expat.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xml\sax\__init__.py">
+      <PackagePath>Lib\xml\sax\__init__.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xml\sax\_exceptions.py">
+      <PackagePath>Lib\xml\sax\_exceptions.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xml\sax\expatreader.py">
+      <PackagePath>Lib\xml\sax\expatreader.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xml\sax\handler.py">
+      <PackagePath>Lib\xml\sax\handler.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xml\sax\saxutils.py">
+      <PackagePath>Lib\xml\sax\saxutils.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xml\sax\xmlreader.py">
+      <PackagePath>Lib\xml\sax\xmlreader.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xmllib.py">
+      <PackagePath>Lib\xmllib.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\xmlrpclib.py">
+      <PackagePath>Lib\xmlrpclib.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\zipfile.py">
+      <PackagePath>Lib\zipfile.py</PackagePath>
+      <Modified>2020-04-26T12:06:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\ensurepip\_bundled\pip-18.1-py2.py3-none-any.whl">
+      <PackagePath>Lib\ensurepip\_bundled\pip-18.1-py2.py3-none-any.whl</PackagePath>
+      <Modified>2020-04-26T11:22:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\ensurepip\_bundled\setuptools-40.6.2-py2.py3-none-any.whl">
+      <PackagePath>Lib\ensurepip\_bundled\setuptools-40.6.2-py2.py3-none-any.whl</PackagePath>
+      <Modified>2020-04-26T11:22:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\ironpython.stdlib\2.7.10\contentFiles\any\any\Lib\site-packages\README.txt">
+      <PackagePath>Lib\site-packages\README.txt</PackagePath>
+      <Modified>2020-04-26T11:22:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-12-06T11:24:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml</PackagePath>
+      <Modified>2020-08-12T13:03:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:49.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:49.188</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:49.252</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:49.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:49.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:48.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:48.428</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:48.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:48.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:48.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:50.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:50.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:50.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:50.915</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:48.593</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:48.634</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:48.675</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:48.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:50.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:50.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:50.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:50.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:50.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:49.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:50.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:50.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:50.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:49.575</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:49.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:49.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:49.731</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:49.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:49.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:49.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:49.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:49.871</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:50.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:50.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:51.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:51.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:51.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:48.837</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:48.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:48.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:49.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2020-10-16T05:10:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T11:46:13.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:48.721</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:49.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:49.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-06T09:41:48.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\CAS\addressdic.txt">
+      <PackagePath>CAS\addressdic.txt</PackagePath>
+      <Modified>2020-11-08T07:23:09.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\CAS\capital.txt">
+      <PackagePath>CAS\capital.txt</PackagePath>
+      <Modified>2020-11-08T07:09:54.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\CAS\cardinal.txt">
+      <PackagePath>CAS\cardinal.txt</PackagePath>
+      <Modified>2020-11-20T11:43:53.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\CAS\city.txt">
+      <PackagePath>CAS\city.txt</PackagePath>
+      <Modified>2020-12-11T06:20:30.132</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\CAS\firstname.txt">
+      <PackagePath>CAS\firstname.txt</PackagePath>
+      <Modified>2020-12-05T10:55:44.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\CAS\kill.txt">
+      <PackagePath>CAS\kill.txt</PackagePath>
+      <Modified>2020-12-06T19:15:57.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\CAS\lastname.txt">
+      <PackagePath>CAS\lastname.txt</PackagePath>
+      <Modified>2020-12-05T10:55:45.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\CAS\road.txt">
+      <PackagePath>CAS\road.txt</PackagePath>
+      <Modified>2020-11-22T13:38:23.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\CAS\stopwords.txt">
+      <PackagePath>CAS\stopwords.txt</PackagePath>
+      <Modified>2020-11-01T14:27:09.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\CAS\town.txt">
+      <PackagePath>CAS\town.txt</PackagePath>
+      <Modified>2020-11-22T05:34:00.080</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\CAS\unit.txt">
+      <PackagePath>CAS\unit.txt</PackagePath>
+      <Modified>2020-11-20T11:43:52.441</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\CAS\village.txt">
+      <PackagePath>CAS\village.txt</PackagePath>
+      <Modified>2020-11-08T07:09:52.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\mecab.dotnet\0.0.26\content\dic\README.txt">
+      <PackagePath>dic\README.txt</PackagePath>
+      <Modified>2019-10-04T04:21:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2020-10-16T05:10:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\mecab.dotnet\0.0.26\content\dic\char.bin">
+      <PackagePath>dic\char.bin</PackagePath>
+      <Modified>2019-10-04T04:21:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\mecab.dotnet\0.0.26\content\dic\matrix.bin">
+      <PackagePath>dic\matrix.bin</PackagePath>
+      <Modified>2019-10-04T04:21:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\mecab.dotnet\0.0.26\content\dic\dicrc">
+      <PackagePath>dic\dicrc</PackagePath>
+      <Modified>2019-10-04T04:21:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\mecab.dotnet\0.0.26\content\dic\sys.dic">
+      <PackagePath>dic\sys.dic</PackagePath>
+      <Modified>2019-10-04T04:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\mecab.dotnet\0.0.26\content\dic\unk.dic">
+      <PackagePath>dic\unk.dic</PackagePath>
+      <Modified>2019-10-04T04:21:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\bin\x86\Debug\CapTone.xr.xml">
+      <PackagePath>CapTone.xr.xml</PackagePath>
+      <Modified>2020-12-11T06:42:21.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2020-12-11T07:39:48.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\bin\x86\Debug\Styles\Page.xbf">
+      <PackagePath>Styles\Page.xbf</PackagePath>
+      <Modified>2020-12-11T07:39:48.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\bin\x86\Debug\Styles\_Colors.xbf">
+      <PackagePath>Styles\_Colors.xbf</PackagePath>
+      <Modified>2020-12-11T07:39:48.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\bin\x86\Debug\Styles\_FontSizes.xbf">
+      <PackagePath>Styles\_FontSizes.xbf</PackagePath>
+      <Modified>2020-12-11T07:39:48.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\bin\x86\Debug\Styles\_Thickness.xbf">
+      <PackagePath>Styles\_Thickness.xbf</PackagePath>
+      <Modified>2020-12-11T07:39:48.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\bin\x86\Debug\Styles\TextBlock.xbf">
+      <PackagePath>Styles\TextBlock.xbf</PackagePath>
+      <Modified>2020-12-11T07:39:48.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\bin\x86\Debug\Views\ShellPage.xbf">
+      <PackagePath>Views\ShellPage.xbf</PackagePath>
+      <Modified>2020-12-11T07:39:48.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\bin\x86\Debug\Views\데이터베이스Page.xbf">
+      <PackagePath>Views\데이터베이스Page.xbf</PackagePath>
+      <Modified>2020-12-11T07:39:48.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\bin\x86\Debug\Views\정제화Page.xbf">
+      <PackagePath>Views\정제화Page.xbf</PackagePath>
+      <Modified>2020-12-11T07:39:48.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\bin\x86\Debug\waittext.xbf">
+      <PackagePath>waittext.xbf</PackagePath>
+      <Modified>2020-12-11T07:39:48.285</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+      <Modified>2019-12-06T11:29:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-12-06T09:33:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+      <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
+      <Modified>2020-07-09T15:07:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-12-11T06:42:25.210</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone\bin\x86\Debug\Core\CapTone.exe">
+      <PackagePath>CapTone.exe</PackagePath>
+      <Modified>2020-12-11T07:39:52.474</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\hyuns\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
+      <Name>Microsoft.UI.Xaml.2.4</Name>
+      <Version>2.42007.9001.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42007.9001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\hyuns\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\hyuns\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
+      <Name>Microsoft.UI.Xaml.2.4</Name>
+      <Version>2.42007.9001.0</Version>
+      <Architecture>Win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42007.9001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\hyuns\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\hyuns\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx">
+      <Name>Microsoft.UI.Xaml.2.4</Name>
+      <Version>2.42007.9001.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42007.9001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\hyuns\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\hyuns\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx">
+      <Name>Microsoft.UI.Xaml.2.4</Name>
+      <Version>2.42007.9001.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42007.9001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\hyuns\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\hyuns\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx">
+      <Name>Microsoft.UI.Xaml.2.4</Name>
+      <Version>2.42007.9001.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42007.9001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\hyuns\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+
+
+Date:2020-11-08 21:34:51,530
+Thread:[1]
+Level:ERROR
+Logger:Microsoft.Syncfusion_VSExtension_Troubleshooter.Syncfusion_VSExtension_TroubleshooterPackage                         [(null)]
+Message:System.IndexOutOfRangeException: 인덱스가 배열 범위를 벗어났습니다.
+   위치: System.Array.InternalGetReference(Void* elemRef, Int32 rank, Int32* pIndices)
+   위치: System.Array.GetValue(Int32 index)
+   위치: Microsoft.Syncfusion_VSExtension_Troubleshooter.Syncfusion_VSExtension_TroubleshooterPackage.queryStatusMenuCommand_BeforeQueryStatus(Object sender, EventArgs e)

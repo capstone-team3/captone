@@ -1,0 +1,182 @@
+﻿<Page
+    x:Class="CapTone.Views.정제화Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Style="{StaticResource PageStyle}"
+    xmlns:prismMvvm="using:Prism.Windows.Mvvm"
+    prismMvvm:ViewModelLocator.AutoWireViewModel="True" 
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Style TargetType="ProgressRing">
+            <Setter Property="Height" Value="200"></Setter>
+            <Setter Property="Width" Value="200"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
+        </Style>
+    </Page.Resources>
+
+    <ScrollViewer>
+        <Grid x:ConnectionId='2' x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="48" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <TextBox Height="40" Margin="100,0,0,0" Grid.Row="1"
+                 PlaceholderText="파일을 선택하십시오."
+                 Width="Auto"             IsReadOnly="True"
+                 Text="{Binding fileName}"  
+                 VerticalAlignment="Top" AcceptsReturn="True" 
+                 />
+
+            <!--ProgressRing x:Name="pr_ProgressRing1" Grid.Row="10" IsActive="{Binding onoff}" /-->
+
+
+            <CommandBar  DefaultLabelPosition="Right" Background="White">
+                <AppBarButton Icon="Add" Label="품목 등록"  Command="{Binding AddItems}" Background="White"/>
+                <AppBarButton Icon="AllApps" Label="품목 확인"   Command="{Binding CheckItems}" Background="White" />
+
+                <AppBarSeparator/>
+                <AppBarButton Icon="AddFriend" Label="사용자 등록"   Command="{Binding AddUsers}" Background="White" />
+                <AppBarButton Icon="Zoom" Label="사용자 확인"   Command="{Binding CheckUsers}" Background="White" />
+
+            </CommandBar>
+
+            <Grid Grid.Row="1"  >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width ="0.7*"/>
+                    <ColumnDefinition Width ="0.01*"/>
+                    <ColumnDefinition Width ="0.3*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox x:ConnectionId='8' x:Name="data_Filed"  Grid.Column="0"
+                AcceptsReturn="True" Margin="0,50,0,0" VerticalAlignment="Top"
+                ScrollViewer.VerticalScrollBarVisibility="Auto"
+                IsReadOnly="True" 
+                HorizontalAlignment="Stretch" TextAlignment="Left"
+                TextWrapping="Wrap"
+                Text="{Binding dialog}" Grid.RowSpan="2" Height="320"/>
+                <AppBarButton Margin= "0,375,0,0" Grid.Row="1" Label="실행"  Height="48"  VerticalAlignment="Top" HorizontalAlignment="Left" Command="{Binding DoNLP}">
+                    <AppBarButton.Icon>
+                        <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#59604;" />
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                <TextBlock Margin="70,375,0,0"  HorizontalAlignment="Left" VerticalAlignment="Top" Text="진행률"/>
+                <ProgressBar Margin="70,400,0,0"  HorizontalAlignment="Stretch" VerticalAlignment="Top" Value="{Binding next_count}" Maximum="{Binding count}"/>
+                <TextBlock Margin="70,410,0,0"  HorizontalAlignment="Right" VerticalAlignment="Top" Text="{Binding progressText}"/>
+                <TextBlock Grid.Column="2" Text="이름" Margin="0,80,0,0" VerticalAlignment="Top"  FontSize="15"/>
+                <TextBox x:ConnectionId='9' x:Name="name_filed" Grid.Column="2"  Margin="0,105,0,0" VerticalAlignment="Top" Text="{Binding inTextName}" IsReadOnly="{Binding namebool}" />
+                <TextBlock Grid.Column="2" Text="전화번호" Margin="0,150,0,0" VerticalAlignment="Top" FontSize="15"/>
+                <TextBox x:ConnectionId='10' x:Name="phone_filed" Grid.Column="2"  Margin="0,175,0,0" VerticalAlignment="Top" Text="{Binding inTextPhone}" IsReadOnly="{Binding phonebool}"/>
+                <TextBlock Grid.Column="2" Text="주소" Margin="0,220,0,0" VerticalAlignment="Top" FontSize="15"/>
+                <TextBox x:ConnectionId='11' x:Name="addr_filed"  Grid.Column="2"  Margin="0,245,0,0" VerticalAlignment="Top" Text="{Binding inTextAdd}" IsReadOnly="{Binding addrbool}"/>
+                <TextBlock Grid.Column="2" Text="품목" Margin="0,290,0,0" VerticalAlignment="Top" FontSize="15"/>
+                <TextBox x:ConnectionId='12' x:Name="item_filed" Grid.Column="2"  Margin="0,315,0,0" VerticalAlignment="Top" Text="{Binding inTextItem}" IsReadOnly="{Binding itembool}" />
+                <AppBarButton x:ConnectionId='13' Icon="Accept" Label="등록" HorizontalAlignment="Right" Margin="0,375,0,0" VerticalAlignment="Top" Grid.Row="1" Grid.Column="2" Width="74" Command="{Binding OKCommand}"                        />
+                <AppBarButton Icon="Edit" Label="수정" Margin="0,375,0,0"  HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Grid.Column="2" Width="74" Command="{Binding EditCommand}" />
+                <AppBarButton Icon="Redo" Label="스킵" Margin="80,375,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"  Command="{Binding CancelCommand}" Grid.Column="2" Width="74" Background="White" />
+
+            </Grid>
+
+
+            <ListView x:ConnectionId='3' MaxHeight="70" ItemsSource="{Binding inText}" x:Name="lvitem" Visibility="Collapsed"
+          ScrollViewer.HorizontalScrollMode="Enabled"  HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="0,450,0,0" Grid.Row="2"  Width="Auto"
+          ScrollViewer.HorizontalScrollBarVisibility="Auto"
+          ScrollViewer.VerticalScrollMode="Auto"
+          ScrollViewer.VerticalScrollBarVisibility="Hidden"
+
+          >
+
+                <ListView.Header>
+                    <Grid  BorderBrush="Black" BorderThickness="1" >
+                        <Grid.ColumnDefinitions >
+
+                            <ColumnDefinition Width="0.1*" />
+                            <ColumnDefinition Width="0.25*"/>
+                            <ColumnDefinition Width="0.4*"/>
+                            <ColumnDefinition Width="0.25*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="이름" HorizontalAlignment="Center" FontSize="20"/>
+                        <TextBlock Grid.Column="1" Text="전화번호" HorizontalAlignment="Center" FontSize="20"/>
+                        <TextBlock Grid.Column="2" Text="주소" HorizontalAlignment="Center" FontSize="20"/>
+                        <TextBlock Grid.Column="3" Text="품목" HorizontalAlignment="Center" FontSize="20"/>
+                    </Grid>
+                </ListView.Header>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid  >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.1*"/>
+                                <ColumnDefinition Width="0.25*"/>
+                                <ColumnDefinition Width="0.4*"/>
+                                <ColumnDefinition Width="0.25*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" Text="{Binding Name}" TextAlignment="Center"/>
+                            <TextBlock Grid.Column="1" Text="{Binding PhoneNumber}" TextAlignment="Center"/>
+                            <TextBlock Grid.Column="2" Text="{Binding HomeAddress}" TextAlignment="Center"/>
+                            <TextBlock Grid.Column="3" Text="{Binding Items}" TextAlignment="Center"/>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                    </Style>
+                </ListView.ItemContainerStyle>
+            </ListView>
+
+            <AppBarButton Icon="OpenFile"  Label="Open File" LabelPosition="Collapsed" Margin="0,0,0,0" Grid.Row="1" Background="#7F808080" Height="40" Width="95" Command="{Binding ImportCommand}" />
+            <!--AppBarButton Icon="Delete" Margin="0,450,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Width="74"  Command="{Binding ItemDeleteCommand}"/-->
+
+            <ListView x:ConnectionId='4' ItemsSource="{Binding inItem}" x:Name="listView" Visibility="Collapsed"
+          ScrollViewer.HorizontalScrollMode="Enabled"  HorizontalAlignment="Stretch" 
+          ScrollViewer.HorizontalScrollBarVisibility="Auto"
+          ScrollViewer.VerticalScrollMode="Auto"
+          ScrollViewer.VerticalScrollBarVisibility="Hidden"           IsItemClickEnabled="True" 
+           SelectionMode="Multiple"
+          
+
+          >
+
+                <ListView.Header>
+                    <Grid  BorderBrush="Black" BorderThickness="1"  >
+                        <Grid.ColumnDefinitions >
+
+                            <ColumnDefinition Width="0.1*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="품목" HorizontalAlignment="Center" FontSize="20"/>
+                    </Grid>
+                </ListView.Header>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid  >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.9*"/>
+                                <ColumnDefinition Width="0.1*"/>
+
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Name="textblock01" Grid.Column="0" Text="{Binding}" TextAlignment="Center"/>
+
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                    </Style>
+                </ListView.ItemContainerStyle>
+            </ListView>
+
+
+
+
+
+
+        </Grid>
+    </ScrollViewer>
+</Page>
+

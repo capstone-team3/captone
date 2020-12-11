@@ -1,0 +1,54 @@
+C:\Users\hyuns\source\repos\CapTone\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.AssemblyInfoInputs.cache
+C:\Users\hyuns\source\repos\CapTone\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.AssemblyInfo.cs
+C:\Users\hyuns\source\repos\CapTone\CapTone.Core\bin\Debug\netstandard2.0\CapTone.Core.deps.json
+C:\Users\hyuns\source\repos\CapTone\CapTone.Core\bin\Debug\netstandard2.0\CapTone.Core.dll
+C:\Users\hyuns\source\repos\CapTone\CapTone.Core\bin\Debug\netstandard2.0\CapTone.Core.pdb
+C:\Users\hyuns\source\repos\CapTone\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.csprojAssemblyReference.cache
+C:\Users\hyuns\source\repos\CapTone\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.csproj.CoreCompileInputs.cache
+C:\Users\hyuns\source\repos\CapTone\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.dll
+C:\Users\hyuns\source\repos\CapTone\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.pdb
+C:\Users\korea\Downloads\CapTone\CapTone.Core\bin\Debug\netstandard2.0\CapTone.Core.deps.json
+C:\Users\korea\Downloads\CapTone\CapTone.Core\bin\Debug\netstandard2.0\CapTone.Core.dll
+C:\Users\korea\Downloads\CapTone\CapTone.Core\bin\Debug\netstandard2.0\CapTone.Core.pdb
+C:\Users\korea\Downloads\CapTone\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.csprojAssemblyReference.cache
+C:\Users\korea\Downloads\CapTone\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.AssemblyInfoInputs.cache
+C:\Users\korea\Downloads\CapTone\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.AssemblyInfo.cs
+C:\Users\korea\Downloads\CapTone\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.csproj.CoreCompileInputs.cache
+C:\Users\korea\Downloads\CapTone\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.dll
+C:\Users\korea\Downloads\CapTone\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.pdb
+C:\Users\korea\Downloads\CapTone - 복사본 (2)\CapTone.Core\bin\Debug\netstandard2.0\CapTone.Core.deps.json
+C:\Users\korea\Downloads\CapTone - 복사본 (2)\CapTone.Core\bin\Debug\netstandard2.0\CapTone.Core.dll
+C:\Users\korea\Downloads\CapTone - 복사본 (2)\CapTone.Core\bin\Debug\netstandard2.0\CapTone.Core.pdb
+C:\Users\korea\Downloads\CapTone - 복사본 (2)\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.csprojAssemblyReference.cache
+C:\Users\korea\Downloads\CapTone - 복사본 (2)\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.AssemblyInfoInputs.cache
+C:\Users\korea\Downloads\CapTone - 복사본 (2)\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.AssemblyInfo.cs
+C:\Users\korea\Downloads\CapTone - 복사본 (2)\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.csproj.CoreCompileInputs.cache
+C:\Users\korea\Downloads\CapTone - 복사본 (2)\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.dll
+C:\Users\korea\Downloads\CapTone - 복사본 (2)\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.pdb
+C:\Users\hyuns\source\repos\CapTone - 복사본 (2)\CapTone.Core\bin\Debug\netstandard2.0\CapTone.Core.deps.json
+C:\Users\hyuns\source\repos\CapTone - 복사본 (2)\CapTone.Core\bin\Debug\netstandard2.0\CapTone.Core.dll
+C:\Users\hyuns\source\repos\CapTone - 복사본 (2)\CapTone.Core\bin\Debug\netstandard2.0\CapTone.Core.pdb
+C:\Users\hyuns\source\repos\CapTone - 복사본 (2)\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.csprojAssemblyReference.cache
+C:\Users\hyuns\source\repos\CapTone - 복사본 (2)\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.AssemblyInfoInputs.cache
+C:\Users\hyuns\source\repos\CapTone - 복사본 (2)\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.AssemblyInfo.cs
+C:\Users\hyuns\source\repos\CapTone - 복사본 (2)\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.csproj.CoreCompileInputs.cache
+C:\Users\hyuns\source\repos\CapTone - 복사본 (2)\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.dll
+C:\Users\hyuns\source\repos\CapTone - 복사본 (2)\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.pdb
+C:\Users\hyuns\source\repos\flask와 연동준비중\CapTone.Core\bin\Debug\netstandard2.0\CapTone.Core.deps.json
+C:\Users\hyuns\source\repos\flask와 연동준비중\CapTone.Core\bin\Debug\netstandard2.0\CapTone.Core.dll
+C:\Users\hyuns\source\repos\flask와 연동준비중\CapTone.Core\bin\Debug\netstandard2.0\CapTone.Core.pdb
+C:\Users\hyuns\source\repos\flask와 연동준비중\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.csprojAssemblyReference.cache
+C:\Users\hyuns\source\repos\flask와 연동준비중\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.AssemblyInfoInputs.cache
+C:\Users\hyuns\source\repos\flask와 연동준비중\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.AssemblyInfo.cs
+C:\Users\hyuns\source\repos\flask와 연동준비중\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.csproj.CoreCompileInputs.cache
+C:\Users\hyuns\source\repos\flask와 연동준비중\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.dll
+C:\Users\hyuns\source\repos\flask와 연동준비중\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.pdb
+C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone.Core\bin\Debug\netstandard2.0\CapTone.Core.deps.json
+C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone.Core\bin\Debug\netstandard2.0\CapTone.Core.dll
+C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone.Core\bin\Debug\netstandard2.0\CapTone.Core.pdb
+C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.csprojAssemblyReference.cache
+C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.AssemblyInfoInputs.cache
+C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.AssemblyInfo.cs
+C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.csproj.CoreCompileInputs.cache
+C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.dll
+C:\Users\hyuns\source\repos\완성90퍼 - 복사본\CapTone.Core\obj\Debug\netstandard2.0\CapTone.Core.pdb
